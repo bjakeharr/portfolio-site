@@ -28,7 +28,7 @@ const Hero = () => {
 				</h1>
 				<p className="text-white sm:text-lg my-6 lg:text-xl">
 					My name is Jake Harris and I am a recent graduate of
-					Bridgerland Technical College's Web and Mobile design
+					Bridgerland Technical College's Web and Mobile Design
 					program.
 				</p>
 
