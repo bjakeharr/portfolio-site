@@ -43,16 +43,24 @@ const Navbar = () => {
 				<h1 className="text-3xl primary-color m-4">JAKE HARRIS</h1>
 				<ul className="p-8 text-2xl">
 					<li className="p-2">
-						<a href="#about">About</a>
+						<a href="#about" onClick={handleNav}>
+							About
+						</a>
 					</li>
 					<li className="p-2">
-						<a href="#work">Work</a>
+						<a href="#work" onClick={handleNav}>
+							Work
+						</a>
 					</li>
 					<li className="p-2">
-						<a href="#experience">Experience</a>
+						<a href="#experience" onClick={handleNav}>
+							Experience
+						</a>
 					</li>
 					<li className="p-2">
-						<a href="#contact">Contact</a>
+						<a href="#contact" onClick={handleNav}>
+							Contact
+						</a>
 					</li>
 				</ul>
 			</div>
