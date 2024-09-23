@@ -14,13 +14,13 @@ const Navbar = () => {
 				JAKE HARRIS
 			</h1>
 			<ul className="hidden md:flex">
-				<li className="p-5">
+				<li className="p-5 hover:text-teal-400">
 					<a href="#about">About</a>
 				</li>
-				<li className="p-5">
+				<li className="p-5 hover:text-teal-400">
 					<a href="#work">Work</a>
 				</li>
-				<li className="p-5">
+				<li className="p-5 hover:text-teal-400">
 					<a href="#contact">Contact</a>
 				</li>
 			</ul>
