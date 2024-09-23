@@ -1,17 +1,17 @@
 import React from "react";
-import heroimage from "../assets/profilepic7.png";
+import heroimage from "../assets/heroimage.jpg";
 import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px]  md:h-[70vh] mx-auto py-8 bg-black">
 			<div className="col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px]">
-				<img src={heroimage} alt="hero image" />
+				<img src={heroimage} alt="hero image" class="rounded-lg" />
 			</div>
 
 			<div className="col-span-2 px-5">
 				<h1 className="text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold">
-					<span className="primary-color">I'm a</span> <br />
+					<span className="gradient-text">I'm a</span> <br />
 					<TypeAnimation
 						sequence={[
 							"Frontend Dev",

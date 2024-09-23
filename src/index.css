@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.primary-color {
-	@apply text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-teal-800 inline-block;
+.gradient-text {
+	background: linear-gradient(
+		to right,
+		#4fd1c5,
+		#234e52
+	); /* from-teal-300 to-teal-800 */
+	background-clip: text;
+	-webkit-background-clip: text; /* Ensure cross-browser support */
+	color: transparent;
 }
 
 body {
