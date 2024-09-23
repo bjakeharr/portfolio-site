@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/aboutImg.jpg";
 
 const About = () => {
 	return (
@@ -11,15 +11,18 @@ const About = () => {
 							About Me
 						</h2>
 						<p className="text-base lg:text-lg">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit, sed do eiusmod tempor incididunt ut labore et
-							dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud exercitation ullamco laboris nisi ut aliquip
-							ex ea commodo consequat. Duis aute irure dolor in
-							reprehenderit in voluptate velit esse cillum dolore
-							eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia
-							deserunt mollit anim id est laborum.
+							I am a web development enthusiast with a growing
+							expertise in CSS, Tailwind, and front-end styling
+							techniques. I'm currently enhancing my skills by
+							working on dynamic visual effects, such as hover
+							animations, content transitions, and gradient text
+							effects. Alongside my technical work, I bring
+							diverse experiences from my career as a merchandiser
+							at Swire Coca-Cola, blending creativity with
+							problem-solving. My current focus is expanding my
+							knowledge of modern web technologies while applying
+							practical design techniques to build engaging and
+							interactive user interfaces.
 						</p>
 					</div>
 				</div>

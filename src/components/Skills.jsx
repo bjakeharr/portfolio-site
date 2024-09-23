@@ -7,7 +7,7 @@ import react from "../assets/react.png";
 
 const Skills = () => {
 	return (
-		<div className="border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6 place-items-center md:flex md:justify-between md:items-center">
+		<div className=" rounded-lg border border-gray-600 bg-black text-gray-400 md:h-[150px] max-w-[1200px] mx-auto grid grid-cols-6 place-items-center md:flex md:justify-between md:items-center">
 			<h2 className="text-gray-700 text-xl md:text-4xl font-bold m-4">
 				My <br />
 				Tool <br />
